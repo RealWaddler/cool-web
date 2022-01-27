@@ -1,0 +1,40 @@
+#show-more{
+    background-color: #bc4749; /* not Green */
+    border: none;
+    color: #660708;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20%;
+    cursor:pointer;
+    border-radius: 4px #660708;
+    border: 2px solid #555;
+    transition-duration: 0.2s;
+    width: 140 px;
+}
+#show-more:hover{
+    background-color:#660708;
+    color:#bc4749;
+}
+#content{
+
+max-height: 20px;
+overflow: hidden;   
+    
+ /*Transaktion*/
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+#content.hele{ 
+    max-height: 1000px;
+    
+    /*Transaktion*/
+    -webkit-transition: max-height 1.7s;
+    -moz-transition: max-height 1.7s;
+    transition: max-height 1.7s;
+    
+    
+}
