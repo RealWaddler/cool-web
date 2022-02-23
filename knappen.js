@@ -24,7 +24,7 @@ button.onclick = function(){
 
 var fyma = document.getElementById("gay");
 fyma.onclick = function () {
-    alert("You gon' get no bitches")
+    alert("You gon' get alot of money")
 }
 var alsc = document.getElementById("alsc");
 alsc.onclick = function () {
@@ -32,5 +32,5 @@ alsc.onclick = function () {
 }
 var stabilt = document.getElementById("bio");
 stabilt.onclick = function () {
-    alert("You gon' get bitches")
+    alert("You gon' save alot of bitches")
 }
